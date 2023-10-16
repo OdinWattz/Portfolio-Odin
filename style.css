@@ -165,12 +165,12 @@ img {
     height: auto;
 }
 
-/* Footer */
+/* Footer
 footer {
     background-color: #333; /* Change the background color */
-    padding: 2rem 0;
-    margin-top: 2rem;
-}
+    /* padding: 2rem 0;
+    margin-top: 2rem; */
+/* } */ 
 
 .container {
     display: flex;
@@ -207,7 +207,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 :root {
-    --bg-color: grey; /* Default background color */
+    --bg-color: #0B0C2A; /* Default background color */
     --footer-bg-color: #333; /* Default footer background color */
 }
 
@@ -227,7 +227,7 @@ footer {
     --footer-bg-color: #333;    
 }
 nav {
-    background-color: #333; /* Change the background color to red */
+    background-color: #030419; /* Change the background color to red */
 }
 body {
     color: white; /* Change the text color to dark gray */
@@ -271,16 +271,11 @@ shop-container {
     height: 50%;
 }
 footer {
-    position:fixed;
     left:0px;
     bottom:0px;
     height:30%;
     width:100%;
-    background:#333;
- }
- 
- /* IE 6 */
- * html footer {
-    position:absolute;
-    top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+    background:#030419;
+    /* margin-top: 65%; */
+    float: left;
  }
