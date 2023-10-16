@@ -109,7 +109,7 @@
                 window.history.pushState(null, null, `?search=${query}`);
             });
 
-            // Check URL for search query on page load
+            
             const urlParams = new URLSearchParams(window.location.search);
             const searchQuery = urlParams.get('search');
             if (searchQuery) {
