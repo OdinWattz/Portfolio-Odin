@@ -202,6 +202,9 @@ li {
 
 body {
     background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 :root {
     --bg-color: grey; /* Default background color */
@@ -246,3 +249,38 @@ shop-container {
     height: 150px;
     margin: 0 auto;
 }
+.navbar-brand img {
+    width:5%;
+    height: 5%;
+    position: absolute;
+    top: 0;
+    margin-top: 0.5%;
+}
+.image-container img {
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+}
+.collumn {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.collumn img {
+    width: 50%;
+    height: 50%;
+}
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30%;
+    width:100%;
+    background:#333;
+ }
+ 
+ /* IE 6 */
+ * html footer {
+    position:absolute;
+    top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+ }
