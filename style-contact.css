@@ -1,12 +1,15 @@
 /* Navbar */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #030419; /* Change the background color */   
+    background: linear-gradient(0.25turn, #030419 65% , #6879d0); /* Change the background gradient */ 
     padding: 1rem;
     margin: 0; 
     text-align: center;
+
 }
 
 .navbar-brand {
@@ -36,6 +39,7 @@ nav {
 a {
     color: #fff; /* Change the font color */
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
@@ -49,15 +53,17 @@ a:hover {
 /* body */
 
 body {
-    background-color: #0B0C2A;
+    /* background-color: #0B0C2A; */
+    background: linear-gradient(0.25turn, #6879d0 , #0B0C2A 55% ); /* Change the background gradient */
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
+    font-family: 'Orbitron', sans-serif;
 }
 
 h1 {
     text-align: center;
+    
 }
 
 .contact-info {
@@ -65,10 +71,12 @@ h1 {
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    
 }
 
 .contact-info p {
     margin: 10px 0;
+   
 }
 
 .map {
@@ -83,7 +91,7 @@ h1 {
 
 /* Footer */
 footer {
-    background-color: #030419;
+    background: linear-gradient(0.25turn, #6879d0 , #030419 35% ); /* Change the background gradient */
     padding: 2rem 0;
     margin-top: 2rem;
     left:0px;
@@ -92,6 +100,9 @@ footer {
     width:100%;
     margin: 2;
     float: left;
+    font-family: 'Roboto Slab', serif;
+
+
 }
 
 ul {
@@ -152,5 +163,20 @@ h5 {
         margin: 0;
         margin-bottom: 1rem;
     }
-
 }
+    /* For extremely small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {}
+
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {}
+
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {}
+
+/*Einde Responsive Navbar*/
