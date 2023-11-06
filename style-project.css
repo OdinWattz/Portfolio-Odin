@@ -1,5 +1,4 @@
 /* Navbar */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 nav {
     display: flex;
@@ -56,10 +55,56 @@ body {
     background-color: #0B0C2A;
     margin: 0;
     padding: 0;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto Slab', serif;
     color: white;
 }
 
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: #0B0C2A;
+    padding: 10px;
+  }
+  
 /* Einde body */
 
 /*------------------------------------------------------------------------------------------------------------------------------*/
@@ -152,5 +197,20 @@ h5 {
 
 /* Extra big screen devices (1200px and above) */
 @media only screen and (min-width: 1200px) {}
+
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
 
 /*Einde Responsive Navbar*/

@@ -1,5 +1,4 @@
 /* Navbar */
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 nav {
     display: flex;
@@ -58,13 +57,22 @@ body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 .about {
     display: flex;
     margin-left: 1rem;
 }
+.mijzelf{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   
+}
+
+
 
 /* Einde body */
 
