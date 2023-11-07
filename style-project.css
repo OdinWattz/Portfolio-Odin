@@ -4,8 +4,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(0.25turn, #030419 65% , #6879d0); /* Change the background gradient */  
-    padding: 1rem;
+    background: linear-gradient(0.25turn, #030419 65% , #6879d0); 
     margin: 0; 
     text-align: center;
     
@@ -14,7 +13,7 @@ nav {
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #fff; /* Change the font color */
+    color: #fff;
     text-decoration: none;
     text-align: center;
 }
@@ -29,14 +28,14 @@ nav {
 
 .nav-link {
     font-size: 1.2rem;
-    color: #fff; /* Change the font color */
+    color: #fff;
     text-decoration: none;
     margin-left: 1rem;
     text-align: center;
 }
 
 nav a {
-    color: #fff; /* Change the font color */
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -52,7 +51,6 @@ a:hover {
 /* body */
 
 body {
-    /* background-color: #0B0C2A; */
     margin: 0;
     padding: 0;
     font-family: 'Roboto Slab', serif;
@@ -71,7 +69,7 @@ body {
   }
   
 a {
-    color: #fff; /* Change the font color */
+    color: #fff;
     text-decoration: none;
     font-weight: bold;}
 
@@ -84,13 +82,13 @@ a {
     margin: 8px -16px;
   }
   
-  /* Add padding BETWEEN each column (if you want) */
+
   .row,
   .row > .column {
     padding: 8px;
   }
   
-  /* Create four equal columns that floats next to each other */
+  /* Creates four equal columns that floats next to each other */
   .column {
     float: left;
     width: 25%;
