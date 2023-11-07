@@ -53,14 +53,49 @@ a:hover {
 /* body */
 
 body {
-    
-    background: linear-gradient(0.25turn, #6879d0 , #0B0C2A 55% ); /* Change the background gradient */
+ 
+    /* background: linear-gradient(0.25turn, #6879d0 , #0B0C2A 55% ); Change the background gradient */
     margin: 0;
     padding: 0;
     font-family: 'Roboto Slab', serif;
     color: white;
 }
 
+.about {
+    display: flex;
+    margin-left: 1rem;
+}
+.mijzelf{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   
+}
+
+html, body {
+    width: 100%;
+    height:auto;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #0B0C2A, #202c68 );
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  
 /* Einde body */
 
 /*------------------------------------------------------------------------------------------------------------------------------*/

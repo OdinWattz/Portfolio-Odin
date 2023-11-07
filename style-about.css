@@ -52,7 +52,7 @@ a:hover {
 /* body */
 
 body {
-    background-color: #0B0C2A;
+    /* background-color: #0B0C2A; */
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -60,19 +60,32 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-.about {
-    display: flex;
-    margin-left: 1rem;
-}
-.mijzelf{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-   
-}
 
 
+html, body {
+    width: 100%;
+    height:auto;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #0B0C2A, #202c68 );
+      background-size: 400% 400%;
+      animation: gradient 5s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+/* Einde body */
 
 /* Einde body */
 
@@ -82,7 +95,7 @@ body {
 footer {
     background: linear-gradient(0.25turn, #6879d0 , #030419 35% ); /* Change the background gradient */
     padding: 2rem 0;
-    margin-top: 2rem;
+    margin-top: 12.75rem;
     left:0px;
     bottom:0px;
     height:25%;
