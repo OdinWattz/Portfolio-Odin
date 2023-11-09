@@ -4,17 +4,17 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(0.25turn, #030419 65% , #182358); 
+    background: linear-gradient(0.25turn, #030419 65% , #182358);
     padding: 1rem;
     margin: 0; 
     text-align: center;
-    width: auto;
+    font-family: 'Roboto Slab', serif;
 }
 
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #fff;
+    color: #fff; 
     text-decoration: none;
     text-align: center;
 }
@@ -29,7 +29,7 @@ nav {
 
 .nav-link {
     font-size: 1.2rem;
-    color: #fff;
+    color: #fff; 
     text-decoration: none;
     margin-left: 1rem;
     text-align: center;
@@ -52,58 +52,46 @@ a:hover {
 /* body */
 
 body {
+ 
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Slab', serif;
     color: white;
-    font-family: 'Roboto Slab', serif;
 }
 
-h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
     text-align: center;
-    color: #fff;
-    font-family: 'Roboto Slab', serif;
-}
-h2{
-    font-size: 1.5rem;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
-    text-align: center;
-    color: #fff;
-    font-family: 'Roboto Slab', serif;
-
-}
-
-p{
-    Font-size: 1.2rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: center;
-    color: #fff;
-    font-family: 'Roboto Slab', serif;
-}
-.download-button {
-    
-    display: inline-block;
-    text-align: center;
-    padding: 10px 20px;
-    font-size: 20px;
-    color: #fff;
-    background-color: #007BFF;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    margin-left: 46.5%;
-}
-
-.download-button:hover {
-    background-color: #0056b3;
-}
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 html, body {
     width: 100%;
@@ -113,7 +101,7 @@ html, body {
   body {
       background: linear-gradient(-45deg, #0B0C2A, #202c68 );
       background-size: 400% 400%;
-      animation: gradient 5s ease infinite;
+      animation: gradient 15s ease infinite;
   }
   
   @keyframes gradient {
@@ -128,15 +116,18 @@ html, body {
       }
   }
 
+
+  
 /* Einde body */
 
 /*------------------------------------------------------------------------------------------------------------------------------*/
 
 /* Footer */
 footer {
+    /* background-color: #030419; */
     background: linear-gradient(0.25turn, #182358 , #030419 35% ); /* Change the background gradient */
     padding: 2rem 0;
-    margin-top: 14.36em;
+    margin-top: 2rem;
     left:0px;
     bottom:0px;
     height:25%;
@@ -206,14 +197,30 @@ h6{
 
     .navbar-brand {
         margin-bottom: 1rem;
+        font-size: 1.2rem;
     }
 
     .nav-link {
         margin: 0;
         margin-bottom: 1rem;
+        font-size: 1rem;
     }
+
 }
-    
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+
 /* For extremely small screen devices (595px and below) */
 @media only screen and (max-width: 595px) {}
 

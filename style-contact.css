@@ -4,7 +4,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(0.25turn, #030419 65% , #6879d0);
+    background: linear-gradient(0.25turn, #030419 65% , #182358);
     padding: 1rem;
     margin: 0; 
     text-align: center;
@@ -111,7 +111,7 @@ html, body {
 
 /* Footer */
 footer {
-    background: linear-gradient(0.25turn, #6879d0 , #030419 35% ); /* Change the background gradient */
+    background: linear-gradient(0.25turn, #182358 , #030419 35% ); /* Change the background gradient */
     padding: 2rem 0;
     margin-top: 2rem;
     left:0px;
@@ -158,6 +158,14 @@ li {
 
 /*Tekst footer*/
 h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #fff; /* Change the font color */
+    text-align: center;
+}
+
+h6{
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 1rem;
