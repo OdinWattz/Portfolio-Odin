@@ -75,12 +75,6 @@ body {
     border-radius: 25px;
     padding: 1rem;
 }
-
-html, body {
-    width: 100%;
-    height:auto;
-  }
-
   
   @keyframes gradient {
       0% {

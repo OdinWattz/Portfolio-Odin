@@ -57,6 +57,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-family: 'Roboto Slab', serif;
+    background: linear-gradient(-45deg, #0B0C2A, #202c68 );
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
 }
 
 h1 {
@@ -105,17 +108,6 @@ p{
     background-color: #0056b3;
 }
 
-html, body {
-    width: 100%;
-    height:auto;
-  }
-  
-  body {
-      background: linear-gradient(-45deg, #0B0C2A, #202c68 );
-      background-size: 400% 400%;
-      animation: gradient 5s ease infinite;
-  }
-  
   @keyframes gradient {
       0% {
           background-position: 0% 50%;

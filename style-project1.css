@@ -57,68 +57,28 @@ body {
     padding: 0;
     font-family: 'Roboto Slab', serif;
     color: white;
-}
-
-* {
-    box-sizing: border-box;
-  }
-  
-  
-  /* Center website */
-  .main {
-    max-width: 1000px;
-    margin: auto;
-  }
-  
-a {
-    color: #fff; /* Change the font color */
-    text-decoration: none;
-    font-weight: bold;}
-
-  h1 {
-    font-size: 50px;
-    word-break: break-all;
-  }
-  
-  .row {
-    margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
-    padding: 8px;
-  }
-  
-  /* Create four equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 25%;
-  }
-  
-  /* Clear floats after rows */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Content */
-  .content {
-    background-color: #0B0C2A;
-    padding: 10px;
-  }
-  
-  html, body {
-    width: 100%;
-    height: auto;
-  }
-  
-  body {
-      background: linear-gradient(-45deg, #0B0C2A, #202c68 );
+    background: linear-gradient(-45deg, #0B0C2A, #202c68 );
       background-size: 400% 400%;
       animation: gradient 5s ease infinite;
-  }
+}
+
+.text{
+  margin-left: 16%;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 25px;
+  width: 65%;
+}
+
+.images{
+  margin-left: 15%;
+  height: auto;
+  width: 65%;
+  border: 5px solid white;
+  border-radius: 25px;
+  padding: 1rem;
+}
+  
   
   @keyframes gradient {
       0% {
@@ -158,6 +118,8 @@ ul {
 
 li {
     margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: white;
 }
 
 /* Footer Text vak 1*/

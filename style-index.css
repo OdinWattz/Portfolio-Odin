@@ -57,6 +57,9 @@ body {
     padding: 0;
     font-family: 'Roboto Slab', serif;
     color: white;
+    background: linear-gradient(-45deg, #0B0C2A, #202c68 );
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
 
 .welcome{
@@ -72,16 +75,18 @@ body {
     padding: 1rem;
 }
 
-html, body {
-    width: 100%;
-    height:auto;
-  }
+.textvlak {
+    margin: auto;
+    text-align: center;
+    width: 57.5%;
+    height: 100%;
+    flex-shrink: 0;
+    border: 5px solid #000;
+    border-radius: 25px;
+    color: #fff;
+    padding: 1rem;
+}
   
-  body {
-      background: linear-gradient(-45deg, #0B0C2A, #202c68 );
-      background-size: 400% 400%;
-      animation: gradient 15s ease infinite;
-  }
   
   @keyframes gradient {
       0% {
@@ -95,18 +100,7 @@ html, body {
       }
   }
 
-  .textvlak {
-    margin: auto;
-    text-align: center;
-    width: 57.5%;
-    height: 100%;
-    flex-shrink: 0;
-    border: 5px solid #000;
-    border-radius: 25px;
-    color: #fff;
-    padding: 1rem;
-}
-  
+
 /* Einde body */
 
 /*------------------------------------------------------------------------------------------------------------------------------*/
