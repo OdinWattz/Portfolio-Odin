@@ -3,7 +3,6 @@
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background: linear-gradient(0.25turn, #030419 65% , #182358);
     padding: 1rem;
     margin: 0; 
@@ -171,7 +170,7 @@ h6{
 /*------------------------------------------------------------------------------------------------------------------------------*/
 
 /* Responsive Navbar */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     nav {
         flex-direction: column;
         align-items: flex-start;
@@ -188,10 +187,10 @@ h6{
         font-size: 1rem;
     }
 
-}
+} */
 
 
-@media only screen and (max-width: 595px) {}
+/* @media only screen and (max-width: 595px) {}
 
 
 @media only screen and (min-width: 600px) {}
@@ -203,6 +202,6 @@ h6{
 @media only screen and (min-width: 889px) {}
 
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {} */
 
-/*Einde Responsive Navbar*/
+/*Einde Responsive Navbar */

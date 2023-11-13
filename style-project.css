@@ -66,7 +66,7 @@ body {
   }
   
   
-  /* Center website */
+  /* Midden website */
   .main {
     max-width: 1000px;
     margin: auto;
@@ -91,20 +91,17 @@ a {
     padding: 8px;
   }
   
-  /* Create four equal columns that floats next to each other */
   .column {
     float: left;
     width: 25%;
   }
   
-  /* Clear floats after rows */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Content */
   .content {
     background-color: #0B0C2A;
     padding: 10px;
