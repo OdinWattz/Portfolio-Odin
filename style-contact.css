@@ -103,7 +103,7 @@ h1 {
 
 /* Footer */
 footer {
-    background: linear-gradient(0.25turn, #182358 , #030419 35% ); /* Change the background gradient */
+    background: linear-gradient(0.25turn, #182358 , #030419 35% );
     padding: 2rem 0;
     margin-top: 2rem;
     left:0px;
@@ -113,7 +113,6 @@ footer {
     margin: 2;
     float: left;
     font-family: 'Roboto Slab', serif;
-
 
 }
 
@@ -153,7 +152,7 @@ h5 {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    color: #fff; /* Change the font color */
+    color: #fff; 
     text-align: center;
 }
 
@@ -161,7 +160,7 @@ h6{
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    color: #fff; /* Change the font color */
+    color: #fff;
 }
 
 /*Einde footer*/
@@ -184,19 +183,15 @@ h6{
         margin-bottom: 1rem;
     }
 }
-    /* For extremely small screen devices (595px and below) */
+
 @media only screen and (max-width: 595px) {}
 
-/* Small screen devices (600px and above) */
 @media only screen and (min-width: 600px) {}
 
-/* Medium screen devices (768px and above) */
 @media only screen and (min-width: 768px) {}
 
-/* Big screen devices (889px and above) */
 @media only screen and (min-width: 889px) {}
 
-/* Extra big screen devices (1200px and above) */
 @media only screen and (min-width: 1200px) {}
 
 /*Einde Responsive Navbar*/
