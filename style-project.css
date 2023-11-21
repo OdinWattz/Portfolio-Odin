@@ -11,6 +11,15 @@ nav {
     
 }
 
+.navbar-tekst{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff; 
+  text-decoration: none;
+  text-align: right;
+
+}
+
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;

@@ -8,22 +8,7 @@ nav {
     margin: 0; 
     text-align: center;
     font-family: 'Roboto Slab', serif;
-}
-
-.navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #fff; 
-    text-decoration: none;
-    text-align: center;
-}
-
-.navbar-brand img {
-    width:5%;
-    height: 5%;
-    position: absolute;
-    top: 0;
-    margin-top: 0.5%;
+    padding-right: 50px;
 }
 
 .nav-link {
@@ -38,6 +23,8 @@ a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    text-align: center;
+    position: flex;
 }
 
 a:hover {
@@ -48,7 +35,7 @@ a:hover {
 
 /*------------------------------------------------------------------------------------------------------------------------------*/
 
-/* body */
+/* body index */
 
 body {
  
@@ -59,6 +46,7 @@ body {
     background: linear-gradient(-45deg, #0B0C2A, #202c68 );
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
+    text-align: center;
 }
 
 .welcome{
@@ -100,8 +88,121 @@ body {
   }
 
 
-/* Einde body */
+/* Einde body Index */
 
+/* Body Projecten */
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+    box-sizing: border-box; 
+  }
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;}
+    
+h1 {
+        font-size: 50px;
+        word-break: break-all;
+        text-align: center;
+      }
+.row {
+        margin: 8px -16px;
+      }
+
+.row,
+.row > .column {
+        padding: 8px;
+      }
+
+.column {
+        float: left;
+        width: 23%;
+      }
+.row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+.content {
+        background-color: #0B0C2A;
+        padding: 10px;
+      }
+
+/* Einde Body Project */
+
+/* Body Contact */
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;  
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.map {
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+}
+
+/* Einde Body Contact */
+
+
+/* Body CV */
+
+.cv h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+.cv h2{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.cv p{
+    Font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+.download-button {
+    
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-left: 0  ;
+}
+.download-button:hover {
+    background-color: #0056b3;
+}
+/* Einde Body CV */
 /*------------------------------------------------------------------------------------------------------------------------------*/
 
 /* Footer */
@@ -166,42 +267,24 @@ h6{
     color: #fff;
 }
 /*Einde footer*/
+/* Footer CV */
+
+.cv {
+    background: linear-gradient(0.25turn, #182358 , #030419 35% );
+    padding: 2rem 0;
+    margin-top: 13.4%;
+    left:0px;
+    bottom:0px;
+    height:25%;
+    width:100%;
+    margin: 2;
+    float: left;
+    font-family: 'Roboto Slab', serif;
+
+}
 
 /*------------------------------------------------------------------------------------------------------------------------------*/
 
 /* Responsive Navbar */
-/* @media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .navbar-brand {
-        margin-bottom: 1rem;
-        font-size: 1.2rem;
-    }
-
-    .nav-link {
-        margin: 0;
-        margin-bottom: 1rem;
-        font-size: 1rem;
-    }
-
-} */
-
-
-/* @media only screen and (max-width: 595px) {}
-
-
-@media only screen and (min-width: 600px) {}
-
-
-@media only screen and (min-width: 768px) {}
-
-
-@media only screen and (min-width: 889px) {}
-
-
-@media only screen and (min-width: 1200px) {} */
 
 /*Einde Responsive Navbar */
