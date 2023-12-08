@@ -4,32 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Odin Wattez</title>
-    <link rel="stylesheet" href="style-index.css">
+    <link rel="stylesheet" href="/CSS/style-index.css">
     <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
     <link rel="manifest" href="Images/site.webmanifest">
 </head>
 <body>
-        <!-- Navbar -->
-            <nav>
-                    <a class="nav-link" href="index.html">Home</a>
-                    <a class="nav-link" href="project.html">Projecten</a>
-                    <a class="nav-link" href="contact.html">Contact</a>
-                    <a class="nav-link" href="cv.html">CV</a>
-                    <a class="nav-link" href="cv-engels.html">English</a>
-            </nav>
-
+    <!-- Navbar -->
+    <nav>
+        <a class="navbar-brand" href="index.html">
+        </a>
+        <div class="navbar-tekst">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="project.html">Projecten</a>
+            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="cv.html">CV</a>
+        </div>
+    </nav>
     <!-- Main Content -->
-    <h1>CV</h1>
 
-    <h2>Dit is mijn CV<br>Hier kun je informatie over mijn ervaringen en opleidingen vinden.<br>Ook als u informatie over mijzelf wilt vinden is dat hier ook te vinden.</h2>
+    <div class="wireframes">
+        <div class="text">
+            <h1>De Opdracht:</h1>
+            <p>Bij deze opdracht moesten wij wireframes maken voor onze portfolio website.<br>
+            Dit was mijn eerste plan voor de website, maar tijdens het maken van de website bleek ik het toch niet zo mooi te vinden.<br>
+            Vandaar dat mijn portfolio website er nu compleet anders uit ziet.</p>
+            <h2>De Wireframes:</h2>
+            <p>Van links boven naar rechts onder: De home pagina, Project pagina, Contact pagina en CV pagina.</p>
+        </div>
+        <div class="images">
+        <img src="/Images/Wireframe homepage.png" alt="homepage">
+        <img src="/Images/Wireframe projectpage.png" alt="project">
+        <img src="/Images/Wireframe contactpage.png" alt="contact">
+        <img src="/Images/Wireframe CV Page.png" alt="cv">
+    </div>
+    </div>
 
-    <p>Hier vind u de download van mijn CV<br>Wilt u de volledige versie kunt u contact opnemen via mail.</p>
-    <a href="CV Odin.pdf" download class="download-button">Download</a>
-
-<!-- Footer -->
-    <footer class="cv">
+<!-- Footer -->    
+    <footer>
         <div class="container">
             <div class="col-md-6">
                 <h5>About</h5>
@@ -37,11 +50,12 @@
                     Deze website heb ik gemaakt om te kunnen laten zien wat ik allemaal heb bereikt.<br>
                     Je vind hier mijn CV, mijn projecten en mijn contact gegevens.<br>
                     <br>
-                    &copy; Odin Wattez 2023</p>
+                    &copy; Odin Wattez 2023
+                </p>
             </div>
             <div class="col-md-4">
                 <h5>Snelle linkjes</h5>
-                <ul class="voeter-links">
+                <ul class="list-unstyled">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="project.html">Project</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -50,7 +64,7 @@
             </div>
             <div class="col-md-3">
                 <h6>Neem contact op:</h6>
-                <ul class="voeter-contact">
+                <ul class="list-unstyled">
                     <li>Boumaboulevard 573</li>
                     <li>9723 ZS Groningen</li>
                     <li>Email: o.wattez@student.alfa-college.nl</li>
