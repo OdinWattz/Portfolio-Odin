@@ -1,0 +1,274 @@
+/* main coding */
+
+*{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#clonedButton{
+    position: absolute;
+    background: none;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 6% 10% 10% 20% 50%;
+    grid-template-rows: 20vb 15vb 20vb 10vb 10vb 10vb 11vb;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 40px;
+    gap: 1%;
+    background-color: rgb(255, 255, 255);
+}
+
+.grid-item{
+    animation: 0.8s anim-flipX ease infinite;
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.item-phone img {
+    display: flex;
+    margin-top: 8%;
+    height: 80vh;
+    width: auto;
+    grid-column: 5;
+    grid-row: span 7;
+}
+
+.item-phone img:hover {
+    animation: rotate-btn .1s linear infinite;
+  -webkit-animation: rotate-btn .1  s linear infinite;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.item-phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-column: 5;
+    grid-row: span 7;
+    background-color: #009dff;
+    animation-duration: infinite;
+    animation: phone  linear infinite;
+  -webkit-animation: phone linear infinite;
+}
+
+.item-phone-mini{
+    display: none;
+    background-color: lightskyblue;
+    transition: 0.5s;
+}
+
+.item-phone:hover, .item-phone-mini:hover{
+    animation-name: phone;
+    animation-duration: 6s;
+}
+
+.item-logo{
+    display: flex;
+    grid-column: 2;
+    justify-items: start;
+}
+
+.item-header{
+    grid-column: 2/ span 3;
+    grid-row: 3;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text-small{
+    grid-row: 4;
+    grid-column: 2/ span 3;
+    font-size: 20px;
+}
+
+.icon-google{
+    grid-column: 2;
+    grid-row: 5;
+    height: 43px;
+    width: 100%;
+}
+
+svg{
+    height: 43px;
+    width: 128px;
+}
+
+.icon-apple{
+    grid-column: 3;
+    grid-row: 5;
+    border: none;
+    background-color: white;
+    width: 128px;
+    height: 43px;
+}
+
+.button_issue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-column: 2;
+    grid-row: 5;
+    width: 128px;
+}
+
+.button_issue2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-column: 3;
+    grid-row: 5;
+    width: 128px;
+}
+
+svg{
+    width: 100%;
+}
+
+.background{
+    background-color: black;
+}
+
+.icon-apple{
+    animation-name: apple;
+    animation-duration: infinite;
+    
+}
+.text-smaller{
+    font-size:15px;
+    grid-column: 2/ span 3;
+    grid-row: 6;
+}
+
+/* animaties en bewegengen */
+
+.item-logo:hover{
+    animation-name: logo;
+    animation-duration: 0.1s;
+
+}
+
+.icon-google:hover{
+    grid-row: 2;
+
+}
+
+@keyframes rotate-btn {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes logo {
+    from {grid-column: 2; color: yellow;}
+    to {grid-column: 4; color: greenyellow;}
+}
+
+@keyframes apple{
+    from {background-color: yellow;}
+    to {background-color: blue;}
+}
+
+@keyframes phone{
+    25% {background-color: white;}
+    50% {background-color: green;}
+    75% {background-color: yellow;}
+    100% {background-color: black;}
+}
+
+@keyframes anim-flipX {
+  0% {
+    opacity: 0;
+    transform: rotateX(90def);
+  }
+  50% {
+    opacity: 1;
+    transform: rotateX(720deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(720deg);
+  }
+}
+
+/* Cookies */
+* {
+    box-sizing: border-box;
+  }
+ 
+  #cookiePopup {
+    background-color: #ffffff;
+    position: absolute;
+    font-size: 14px;
+    max-width: 500px;
+    max-height: 275px;
+    box-shadow: 0 0 2em rgba(5, 0, 31, 0.15);
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    padding: 2em 1.4em;
+    border-radius: 6px;
+    transition: all 0.5s ease-in;
+  }
+  #cookiePopup img {
+    display: block;
+    width: 10%;
+    height: 20%;
+    margin: auto;
+  }
+  #cookiePopup p {
+    text-align: center;
+    margin: 25px 0;
+    height: 50px;
+  }
+  #cookiePopup button {
+    background-color: #6859fe;
+    border: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 0;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+  }
+  #cookiePopup a {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    color: #6859fe;
+  }
+  .hide {
+    visibility: visible;
+    bottom: 0;
+    right: 5em;
+  }
+  .show {
+    visibility: visible;
+    bottom: 2em;
+    right: 2em;
+  }
+
+
+  .flipX {
+    animation: 0.8s anim-flipX ease infinite;
+  }
+  
