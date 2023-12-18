@@ -257,7 +257,7 @@ svg{
     color: #6859fe;
   }
   .hide {
-    visibility: visible;
+    visibility: hidden;
     bottom: 0;
     right: 5em;
   }
