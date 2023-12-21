@@ -59,13 +59,12 @@ document.getElementById("acceptCookie").addEventListener("click", () => {
   d.setMinutes(5 + d.getMinutes());
 
   //De naam van de cookie en hoelang die geldig is
-  document.cookie = "myCookieName=ditismijncookie_Odin; expires = " + d + ";";
+  document.cookie = "myCookieName=ditismijncookie_Odin_Mohammad; expires = " + d + ";";
 
   //Hide de popup
   popUp.classList.add("hide");
   popUp.classList.remove("show");
 });
-
 
 // Die checkt of de cookie al bestaat
 const checkCookie = () => {

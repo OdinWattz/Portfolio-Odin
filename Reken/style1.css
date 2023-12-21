@@ -1,0 +1,36 @@
+.social-tabs {
+list-style: none;
+padding: 0;
+display: flex;
+}
+
+.social-tabs li {
+    margin-right: 10px;
+}
+
+.social-tabs a {
+text-decoration: none;
+font-size: 24px;
+}
+
+.youtube::before {
+content: "\f09a" ;
+font-family: Arial;
+margin-right: 5px;
+}
+
+.twitter::before {
+content: "\f099" ;
+font-family: Arial;
+margin-right: 5px;
+
+}
+@media (max-width: 768px) {
+    .social-tabs {
+        flex-direction: column;
+    }
+    .social-tabs li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
